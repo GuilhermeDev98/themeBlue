@@ -1,0 +1,44 @@
+@media all and (max-width : 700px)
+{
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    main #listPosts{
+        width: 90%;
+        padding: 5%;
+    }
+    main #listPosts ul li .postTitle{
+        font-size: 1.5em;
+    }
+    main #listPosts ul li .postInfo{
+        font-size: 1em;
+    }
+    main #aside{
+        width: 100%;
+        margin: 5% 2%;
+    }
+    main #profile{
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    footer .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 5% 5%;
+    }
+    footer .section div{
+        padding: 5% 0;
+    }
+    footer #developer{
+        text-align: center;
+    }
+
+}
